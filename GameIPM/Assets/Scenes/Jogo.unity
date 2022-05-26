@@ -2578,6 +2578,8 @@ MonoBehaviour:
     panelColor: {r: 0.09019608, g: 0.121568635, b: 0.15294118, a: 1}
     textColor: {r: 0, g: 0.7686275, b: 0.7686275, a: 1}
   startInfo: {fileID: 108629908}
+  playerMove: 0
+  delay: 10
 --- !u!4 &1834089164
 Transform:
   m_ObjectHideFlags: 0
