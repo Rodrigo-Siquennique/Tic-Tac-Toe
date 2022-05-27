@@ -5,12 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class MenuPrincipal : MonoBehaviour
 {
-    
-    public string Tutorial = "Tutorial";
+    public string menu = "Menu";
+    public string game = "Jogo";
+    public string options = "Opções";
+    public string tutorial = "Tutorial";
 
     public void Play()
     {
-        SceneManager.LoadScene(Tutorial);
+        SceneManager.LoadScene(game);
+    }
+
+    public void Tutotial()
+    {
+        SceneManager.LoadScene(tutorial);
+    }
+
+    public void Options()
+    {
+        SceneManager.LoadScene(options);
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene(menu);
     }
 
     public void Quit()
